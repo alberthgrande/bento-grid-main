@@ -1,0 +1,77 @@
+@import url(reset.css);
+:root {
+  /* colors */
+
+  --color-Purple-100: hsl(254, 88%, 90%);
+  --color-Purple-500: hsl(256, 67%, 59%);
+
+  --color-Yellow-100: hsl(31, 66%, 93%);
+  --color-Yellow-500: hsl(39, 100%, 71%);
+
+  --color-White: hsl(0, 0%, 100%);
+  --color-Black: hsl(0, 0%, 7%);
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/DMSans-VariableFont_opsz,wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/DMSans-Italic-VariableFont_opsz,wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  /* background-color: var(--clr-neutral-Light-grayish-blue);
+  font-size: var(--fs-body-copy);
+  font-family: var(--font-family); */
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+  font-size: 1.125rem;
+
+  min-height: 100vh;
+}
+img {
+  height: auto;
+  width: 100px;
+}
+section {
+  width: 100%;
+}
+.grid-container_item1 {
+  background: var(--color-Purple-500);
+}
+.grid-container_item2 {
+  background: var(--color-White);
+}
+.grid-container_item3 {
+  background: var(--color-Yellow-500);
+}
+.grid-container_item4 {
+  background: var(--color-Purple-100);
+}
+.grid-container_item5 {
+  background: var(--color-Purple-500);
+}
+.grid-container_item6 {
+  background: var(--color-White);
+}
+.grid-container_item7 {
+  background: var(--color-Yellow-100);
+}
+.grid-container_item8 {
+  background: var(--color-Yellow-500);
+}
